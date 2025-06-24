@@ -15,7 +15,7 @@ results = model(image_path)
 result = results[0]
 
 # Extract the image with the bounding boxes drawn (ready for OpenCV)
-annotated_frame = result.plot()  # Questo restituisce un array numpy compatibile con OpenCV
+annotated_frame = result.plot()  # This returns an OpenCV compatible numpy array
 
 # Show image with OpenCV
 cv2.imshow("YOLOv8 Detection", annotated_frame)
