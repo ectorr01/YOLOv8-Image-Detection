@@ -23,7 +23,8 @@ pip install ultralytics opencv-python
 ```bash
 image_detection_project/
 │
-├── immagine.png            # Input image for detection
+├── yolov8s.pt              # Pre-trained YOLOv8 model 
+├── your_image.png          # Input image for detection
 ├── yolo.py                 # Main script
 └── README.md
 ```
