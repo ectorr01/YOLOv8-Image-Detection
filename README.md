@@ -7,10 +7,20 @@ The script loads a pre-trained YOLOv8 model (`yolov8s.pt`) and performs object d
 
 > ✅ The model file (`yolov8s.pt`) will be automatically downloaded the first time you load the model. No need to manually download or place it in your project folder.
 
+## Create Virtual Enviroment and activation
+```bash
+cd your_project
+python -m venv .venv
+
+/venv/Scripts/activate  - Windows
+source /venv/bin/activate - Linux
+```
+
 ## 📦 Dependencies
 Make sure you have the following libraries installed:
 - `ultralytics`: For using the YOLOv8 model.
 - `opencv-python` (optional): For displaying or saving annotated images.
+
 
 Install them via pip:
 
